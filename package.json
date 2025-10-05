@@ -1,5 +1,5 @@
 {
-  "name": "@slovakia-kosice/idsk-react",
+  "name": "@PeterStavny/idsk-react",
   "version": "4.1.2",
   "description": "React native components for IDSK 3.0",
   "scripts": {
@@ -13,8 +13,8 @@
     "storybook": "storybook dev -p 6006",
     "dev": "concurrently \"npm:build-styles-dev\" \"npm:storybook\"",
     "build-storybook": "storybook build",
-    "build-svg-icons": "npx @svgr/cli --out-dir src/svgIcons --icon --index-template svgr-index-template.js --replace-attr-values '#000=currentColor' -- node_modules/@slovakia-kosice/idsk-core/dist/assets/svgIcons",
-    "build-svg-images": "npx @svgr/cli --out-dir src/svgImages --no-dimensions --replace-attr-values '#000=currentColor' -- node_modules/@slovakia-kosice/idsk-core/dist/assets/svgImages",
+    "build-svg-icons": "npx @svgr/cli --out-dir src/svgIcons --icon --index-template svgr-index-template.js --replace-attr-values '#000=currentColor' -- node_modules/@PeterStavny/idsk-core/dist/assets/svgIcons",
+    "build-svg-images": "npx @svgr/cli --out-dir src/svgImages --no-dimensions --replace-attr-values '#000=currentColor' -- node_modules/@PeterStavny/idsk-core/dist/assets/svgImages",
     "deploy": "npm run rollup && npm publish"
   },
   "repository": {
@@ -38,7 +38,7 @@
     "@rollup/plugin-node-resolve": "^16.0.0",
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^12.1.2",
-    "@slovakia-kosice/idsk-core": "^3.1.9",
+    "@PeterStavny/idsk-core": "^3.1.9",
     "@storybook/addon-essentials": "^8.5.2",
     "@storybook/addon-interactions": "^8.5.2",
     "@storybook/addon-onboarding": "^8.5.2",

@@ -20,7 +20,7 @@ services:
         max-file: "2"
         loki-url: "http://loki.${CI_ENVIRONMENT_NAME_LOWER}.svm.skit.zone/loki/api/v1/push"
         loki-timeout: "3s"
-        loki-retries: "5"
+        loki-retries: "5" 
     environment:
       TZ: "Europe/Bratislava"
     labels:
